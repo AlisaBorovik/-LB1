@@ -1,0 +1,14 @@
+#include <iostream>
+#include <cmath>
+
+int main()
+{
+    double a = 10;
+    double b = 0.5;
+
+    double result = ((0.314 * exp(a) - 0.512 * exp(b)) / (sin(b / 3 * 3.14)) * log(a));
+
+    std::cout << "Result is: " << result << std::endl;
+
+    return 0;
+}
